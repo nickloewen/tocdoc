@@ -2,12 +2,11 @@
 
 Make your long documents easy to read by adding a table of contents on the side. A lo-fi Gitbook alternative, using [Pandoc](https://pandoc.org) and bash.
 
-Just create three files and run `./tocdoc.sh`. Then open up `/generated/index.html` to see your TOCdoc:
+Create three files, run `./tocdoc.sh`, and open up `/generated/index.html` to see your TOCdoc:
 
 ![Screenshot showing an example TOCdoc](screenshot.png)
 
-
-## Similar but more fully featured
+## Alternatives
 
 TOCdoc is based on tools like:
 
@@ -17,14 +16,21 @@ TOCdoc is based on tools like:
 * [Bookdown](https://bookdown.org) (R Markdown)
 * [docsify](https://docsify.js.org/) (client-side markdown rendering)
 
-TOCdoc does less. It also requires less configuration.
+TOCdoc does less. But it also requires less configuration.
 
-## Getting started
+## Setup
 
-1. [Install Pandoc](https://pandoc.org/installing.html)
-2. `git clone TK`
+First, [install Pandoc](https://pandoc.org/installing.html).
 
-## Usage
+Then, `git clone https://github.com/nickloewen/tocdoc`.
+
+Or, if you want to clone into a folder with a better name:
+
+	$ mkdir philosophiae-naturalis-principia-mathematica
+	$ cd philosophiae-naturalis-principia-mathematica
+	$ git clone https://github.com/nickloewen/tocdoc .
+
+## Creating a webpage
 
 1. Create your document, and save it to `/document/body.md`.
 2. Create your table of contents and save it to `/document/contents.md`
@@ -36,6 +42,4 @@ For `body.md`, I recommend using an H1 for the overall page title, and H2s for c
 
 (The current stylesheet assumes that your first H1 will be followed by a byline, a horizontal rule, and the first chapter, with no additional content.)
 
-For `contents.md`, use a regular markdown lists. You can use an H2 to add a heading. (Any other markdown will also work, it's just not covered by the stylesheet.)
-
-## 
+For `contents.md`, use a regular markdown list. You can use an H2 to add a heading. (Other markdown will also work, it's just not covered by the stylesheet.)
