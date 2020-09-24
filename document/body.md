@@ -10,11 +10,11 @@ Nick Loewen, September 2020
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  Right     Left     Center     Default
--------     ------ ----------   -------
-     12     12        12            12
-    123     123       123          123
-      1     1          1             1
+  Right  Left         Center     Default
+-------  ---------  ----------   -------
+      1  Leibniz        *        12
+     12  Newton       *****      123
+    123  Descartes     ***       1
 
 ### Section 1 {#ch1sec1}
 
