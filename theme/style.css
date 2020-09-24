@@ -12,6 +12,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Set by JS on page load, unset after a timeout */
+body.no-animations *{
+  animation-duration: 0s !important;
+  transition:background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
+
 /* Skip nav link */
 
 .screen-reader-text {
@@ -172,7 +178,7 @@ main {
   100% { margin-left: 300px; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #book-main.wide {
     padding-left: 4em;
     padding-right: 1em;
