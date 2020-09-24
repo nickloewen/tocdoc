@@ -175,6 +175,7 @@ main {
 	#book-main.narrow {
 		/* padding-left: 1em; */
 		width: 400px; /* TODO this is a hack, and could cause content to jump around */
+    overflow: hidden;
 	}
 }
 
