@@ -6,7 +6,7 @@ Create three files, run `./tocdoc.sh`, and open up `/generated/index.html` to se
 
 ![Screenshot showing an example TOCdoc](screenshot.png)
 
-Check out the [live example](https://nickloewen.github.io/tocdoc/), based on the default example document in [`document`](https://github.com/nickloewen/tocdoc/tree/master/document).
+Check out the [live example](https://nickloewen.github.io/tocdoc/), based on the default example document in [`document/`](https://github.com/nickloewen/tocdoc/tree/master/document).
 
 ## Alternatives
 
