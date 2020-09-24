@@ -285,7 +285,7 @@ cite {
 }
 
 table {
-  margin: 2em 0;
+  margin: 2em auto;
   border-collapse: collapse;
   line-height: 2;
 }
