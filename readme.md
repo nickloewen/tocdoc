@@ -40,8 +40,15 @@ Or, if you want to clone into a folder with a better name:
 4. Run `./tocdoc.sh`
 5. Check out the output at `generated/index.html`
 
+### Body
+
 For `body.md`, I recommend using an H1 for the overall page title, and H2s for chapter titles. A horizontal rule (markdown: `***`) between chapters is nice, too.
 
 (The current stylesheet assumes that your first H1 will be followed by a byline, a horizontal rule, and the first chapter, with no additional content.)
 
+### Contents
 For `contents.md`, use a regular markdown list. You can use an H2 to add a heading. (Other markdown will also work, it's just not covered by the stylesheet.)
+
+### Images and other assets
+
+If you want to add other static assets (like images), you can put those straight into `generated/`.
