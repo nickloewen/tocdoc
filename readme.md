@@ -2,7 +2,7 @@
 
 Make your long documents easy to read by adding a table of contents on the side. A lo-fi Gitbook alternative, using Pandoc and bash.
 
-Create three files, run `./tocdoc.sh`, and open up `/generated/index.html` to see your TOCdoc:
+Create three files, run `./tocdoc.sh`, and open up `generated/index.html` to see your TOCdoc:
 
 ![Screenshot showing an example TOCdoc](screenshot.png)
 
@@ -34,11 +34,11 @@ Or, if you want to clone into a folder with a better name:
 
 ## Creating a webpage
 
-1. Create your document, and save it to `/document/body.md`.
-2. Create your table of contents and save it to `/document/contents.md`
-3. In `/documents/title.txt`, write the title you want displayed on the browser tab
+1. Create your document, and save it to `document/body.md`.
+2. Create your table of contents and save it to `document/contents.md`
+3. In `documents/title.txt`, write the title you want displayed on the browser tab
 4. Run `./tocdoc.sh`
-5. Check out the output at `/generated/index.html`
+5. Check out the output at `generated/index.html`
 
 For `body.md`, I recommend using an H1 for the overall page title, and H2s for chapter titles. A horizontal rule (markdown: `***`) between chapters is nice, too.
 
