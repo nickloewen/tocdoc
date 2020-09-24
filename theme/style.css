@@ -129,6 +129,7 @@ body {
 #book-main {
   margin-left: 300px;
   margin-bottom: 4em;
+  padding-left: 1em;
 }
 
 #book-main.wide {
@@ -172,7 +173,7 @@ main {
 	}
 
 	#book-main.narrow {
-		padding-left: 1em;
+		/* padding-left: 1em; */
 		width: 400px; /* TODO this is a hack, and could cause content to jump around */
 	}
 }
