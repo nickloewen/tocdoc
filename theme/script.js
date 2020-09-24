@@ -28,6 +28,6 @@ sidebarToggle.addEventListener(
   }
 );
 
-if (screen.width < 600) {
+if (window.innerWidth < 600) {
   hideSidebar();
 }
