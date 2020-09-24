@@ -3,19 +3,20 @@ const sidebarToggle = document.getElementById('toggle-sidebar');
 const main = document.getElementById('book-main');
 
 function hideSidebar() {
+  if (sidebar.className === "hidden") return; // Don't bother
   sidebar.className = "hidden";
   main.className = "wide";
-  window.setTimeout(
+  /*window.setTimeout(
     () => { sidebarToggle.textContent = "→"; },
-    125);
+    125);*/
 }
 
 function showSidebar() {
   sidebar.className = "shown";
   main.className = "narrow";
-  window.setTimeout(
+  /* window.setTimeout(
     () => { sidebarToggle.textContent = "×"; },
-    125); // Transition time from CSS
+    125); // Transition time from CSS */
 }
 
 sidebarToggle.addEventListener(
@@ -28,6 +29,16 @@ sidebarToggle.addEventListener(
   }
 );
 
-if (window.innerWidth < 600) {
-  hideSidebar();
+function autohideSidebar() {
+  if (window.innerWidth < 800) {
+    hideSidebar();
+    main.addEventListener('click', hideSidebar);
+  }
 }
+
+window.addEventListener('resize', autohideSidebar);
+
+autohideSidebar();
+
+// Remove "no-animations" after page has loaded
+setTimeout( () => { document.body.className=""; },500);
