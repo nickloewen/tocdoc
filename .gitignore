@@ -2,4 +2,4 @@
 *.swp
 *.swo
 .DS_Store
-update-github.sh
+update-github-pages.sh
