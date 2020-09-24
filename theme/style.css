@@ -12,6 +12,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Skip nav link */
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 /* SIDEBAR */
 
 #sidebar {
