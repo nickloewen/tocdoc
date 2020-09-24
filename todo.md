@@ -2,9 +2,14 @@
 
 ## Misc
 
-- rename `script.js` to `sidebar.js`
+- Think about how to handle extra assets (images)
+
+- Add alt text for sidebar toggle
+- Fix gh-pages example image
+- Maybe: rename `script.js` to `sidebar.js`
 
 ## CSS
 
-- stop sidebar from scrolling if it's collapsed
-- review breakpoints
+- Make sidebar close button stay put while scrolling
+- Mobile:
+  - tap document to close sidebar
