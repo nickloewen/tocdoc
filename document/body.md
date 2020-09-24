@@ -50,6 +50,8 @@ Ut vulputate elementum orci, quis pulvinar lorem maximus vel. Curabitur placerat
 
 Suspendisse porta justo diam, eget mollis lectus finibus non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eget finibus lorem, id ultricies quam. Aliquam erat volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam ac auctor velit. Nulla facilisi. Nam felis metus, ullamcorper quis semper sed, bibendum sed lacus. Aenean ut magna ut augue ullamcorper laoreet.
 
+![Small square placeholder](https://via.placeholder.com/100)
+
 ***
 
 ## Chapter 3 {#ch3}
