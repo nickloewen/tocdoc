@@ -6,7 +6,7 @@ function hideSidebar() {
   sidebar.className = "hidden";
   main.className = "wide";
   window.setTimeout(
-    () => { sidebarToggle.innerHTML = "→"; },
+    () => { sidebarToggle.textContent = "→"; },
     125);
 }
 
@@ -14,7 +14,7 @@ function showSidebar() {
   sidebar.className = "shown";
   main.className = "narrow";
   window.setTimeout(
-    () => { sidebarToggle.innerHTML = "×"; },
+    () => { sidebarToggle.textContent = "×"; },
     125); // Transition time from CSS
 }
 
@@ -28,6 +28,6 @@ sidebarToggle.addEventListener(
   }
 );
 
-if (screen.width < 600) {
+if (window.innerWidth < 600) {
   hideSidebar();
 }
