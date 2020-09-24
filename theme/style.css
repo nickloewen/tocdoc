@@ -267,7 +267,6 @@ cite {
 }
 
 table {
-  width: 100%;
   margin: 2em 0;
   border-collapse: collapse;
   line-height: 2;
@@ -276,6 +275,14 @@ table {
 td, th {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+td:first-of-type, th:first-of-type {
+  padding-left: 0.25em;
+}
+
+td:last-of-type, th:last-of-type {
+  padding-right: 0.25em;
 }
 
 td {
