@@ -40,14 +40,17 @@ body.no-animations *{
   float: right;
   width: 2em;
   height: 2em;
-  border-radius: 1em;
+  border-radius: 1.5em;
   text-align: center;
   line-height:1.5;
   cursor: pointer;
-  margin-right: -0.625em;
+  margin-right: -0.75em;
   color: #666;
   border: none;
+  background: none;
+  font-size: 1em;
 }
+
 #toggle-sidebar:before {
   content: "☰";
 }
