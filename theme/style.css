@@ -184,9 +184,13 @@ main {
     padding-right: 1em;
     width: 100%;
   }
+}
 
-  #book-main.narrow {
-    width: 400px; /* TODO this is a hack, and could cause content to jump around */
+@media (max-width: 600px) {
+  #book-main.narrow main {
+    /* Push content offscreen, but don't let it jump around*/
+    width: calc(100vw - 5em);
+    /* (When wide, this is 100vw - 2em (left & right padding) - 3 em (sidebar) */
   }
 }
 
