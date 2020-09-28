@@ -1,6 +1,6 @@
 # To do
 
-- CSS fonts:
-  - Limit weights
-  - Consider system fonts
-  - Check contast
+- Check contrast
+- Test with long section titles in sidebar
+- Dark mode
+- Better example document
