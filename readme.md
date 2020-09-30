@@ -2,11 +2,9 @@
 
 Make your long documents easy to read by adding a table of contents on the side. A lo-fi Gitbook alternative, using Pandoc and bash.
 
-Create three files, run `./tocdoc.sh`, and open up `generated/index.html` to see your TOCdoc:
+To use, just create three files, run `./tocdoc.sh`, and open up `generated/index.html` to see your TOCdoc.
 
-![Screenshot showing an example TOCdoc](generated/screenshot.png)
-
-Check out the [live example](https://nickloewen.github.io/tocdoc/), based on the default example document in [`document/`](https://github.com/nickloewen/tocdoc/tree/master/document).
+[Check out the live example](https://nickloewen.github.io/tocdoc/) based on the default example document in [`document/`](https://github.com/nickloewen/tocdoc/tree/master/document).
 
 ## Alternatives
 
