@@ -33,19 +33,24 @@ Or, if you want to clone into a folder with a better name:
 ## Creating a webpage
 
 1. Create your document, and save it to `document/body.md`.
-2. Create your table of contents and save it to `document/contents.md`
-3. In `documents/title.txt`, write the title you want displayed on the browser tab
-4. Run `./tocdoc.sh`
-5. Check out the output at `generated/index.html`
+2. Create your table of contents and save it to `document/contents.md`.
+3. In `documents/title.txt`, write the title you want displayed on the browser tab.
+4. Run `./tocdoc.sh`.
+5. Check out the output at `generated/index.html`.
 
-### Body
+### Editing `body.md`
 
-For `body.md`, I recommend using an H1 for the overall page title, and H2s for chapter titles. A horizontal rule (markdown: `***`) between chapters is nice, too.
+- Use [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)
+- I recommend using an H1 for the overall page title, and H2s for chapter titles. A horizontal rule (markdown: `***`) between chapters is nice, too.
+- Add anchor links to your headings like this: `## Chapter 2 {#ch-2}`.
+- The current stylesheet assumes that your first H1 will be followed by a byline, a horizontal rule, and the first chapter, with no additional content.
 
-(The current stylesheet assumes that your first H1 will be followed by a byline, a horizontal rule, and the first chapter, with no additional content.)
+### Editing `contents.md`
 
-### Contents
-For `contents.md`, use a regular markdown list. You can use an H2 to add a heading. (Other markdown will also work, it's just not covered by the stylesheet.)
+- You can use an H2 to add a title to your table of contents. (Other markdown will also work, it's just not covered by the stylesheet.).
+- Create your table of contents using a regular markdown list (bulleted lists, numbered lists, and automatically numbered lists wll all work).
+- Link to your headings like this: `[Chapter 2](#ch-2)`
+
 
 ### Images and other assets
 
