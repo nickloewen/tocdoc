@@ -30,7 +30,7 @@ body.no-animations *{
   height: 100%;
   background-color: rgb(245, 245, 245);
   padding: 20px;
-  overflow: scroll;
+  overflow: auto;
   padding-top: 4.5em;
 }
 
@@ -93,7 +93,7 @@ body.no-animations *{
 /* Sidebar lists */
 
 #sidebar ul {
-  line-height: 2;
+  /* line-height: 2; */
   margin-left: 0;
   margin-top: 0;
 }
@@ -113,19 +113,26 @@ body.no-animations *{
 #sidebar ul ol,
 #sidebar ol ol,
 #sidebar ol ul {
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 
-#sidebar ul li {
+/* Sidebar unordered list */
+
+#sidebar ul li { /* All */
   list-style-type: none;
-}
-
-#sidebar ul li {
   margin-bottom: 1em;
 }
 
-#sidebar ul li li {
-  margin-bottom: 0;
+#sidebar ul li {
+  margin-top: 2em;
+}
+
+#sidebar li ul {
+  margin-top: 1em;
+}
+
+#sidebar ul ul li {
+  margin-top: 0;
 }
 
 /* Sidebar links */
@@ -259,6 +266,13 @@ ol, ul {
 
 ol li, ul li {
   margin-bottom: 0.5em;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin-top: 0.25em;
 }
 
 code {
