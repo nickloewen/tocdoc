@@ -30,6 +30,7 @@ body.no-animations *{
   height: 100%;
   background-color: rgb(245, 245, 245);
   padding: 20px;
+  padding-right: 3em;
   overflow: auto;
   padding-top: 4.5em;
 }
@@ -44,7 +45,7 @@ body.no-animations *{
   text-align: center;
   line-height:1.5;
   cursor: pointer;
-  margin-right: -0.75em;
+  margin-right: -2.5em;
   color: #666;
   border: none;
   background: none;
